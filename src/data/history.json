@@ -1,66 +1,36 @@
 {
   "education": [
     {
-      "period": "2017 – 2018",
-      "school": "Queensland University of Technology",
-      "degree": "Master of Information Technology (Data Science)",
+      "period": "September 2021 – September 2022",
+      "school": " Cranfield University",
+      "degree": "Master’s degree in Software Engineering for Technical Computing Option",
       "description": ""
     },
     {
-      "period": "2014 – 2015",
-      "school": "Arena Multimedia",
-      "degree": "Certificate in Multimedia (Graphics, Web Design & Development certificate)",
+      "period": "September 2019 – September 2022",
+      "school": "ESTIA: Institute of Advanced Industrial Technologies",
+      "degree": "Master’s degree in General Engineering and Innovation",
       "description": ""
-    },
-    {
-      "period": "2009 – 2011",
-      "school": "The University of Greenwich",
-      "degree": "Bachelor of Science Computing (Computer Science)",
-      "description": ""
-    },
-    {
-      "period": "2007 – 2009",
-      "school": "Aptech Computer Education",
-      "degree": "Higher Diploma in Software Engineering",
-      "description": ""
-    },
-    {
-      "period": "2006 – 2007",
-      "school": "Aptech Computer Education",
-      "degree": "Diploma in Information System Management",
-      "description": "<p>&nbsp;<\/p>"
     }
   ],
   "career": [
     {      
-      "period": "2020 - Present",
-      "company": "Cooper Grace Ward Lawyers",
-      "title": "Microsoft .NET Developer",
+      "period": "May 2022 - October 2022",
+      "company": "DASSAULT SYSTEMES",
+      "title": "Front-end developer - Data Science Components",
       "description": "<p>Brisbane, Queensland, Australia<\/p>"
     },
     {      
-      "period": "2019 - 2020",
-      "company": "Locatrix",
-      "title": "Software Engineer",
+      "period": "May 2021 - August 2021",
+      "company": "Manayaki",
+      "title": "Intern Front-end developer",
       "description": "<p>Loganholme, Queensland, Australia<\/p>"
     },
     {      
-      "period": "2017 - 2019",
-      "company": "Sol Edu Pty Ltd",
-      "title": "Senior Software Programmer",
+      "period": "January 2020 - March 2020",
+      "company": "Limed ",
+      "title": "Intern Full Stack developer",
       "description": "<p>Brisbane, Queensland, Australia<\/p>"
-    },
-    {      
-      "period": "2013 - 2015",
-      "company": "Vietnam Education Foundation",
-      "title": "IT and Data Specialist",
-      "description": ""
-    },
-    {      
-      "period": "2011 - 2013",
-      "company": "IDP Education Pty Ltd",
-      "title": "IT Officer",
-      "description": ""
     }
   ]
 }
