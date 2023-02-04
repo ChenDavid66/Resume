@@ -1,12 +1,22 @@
-import React from 'react'
-import { Header, Home, Footer, About, Education, Experience, Services, Review, Tools, Contact } from '../sections'
-import { Row, Col, Container } from 'react-bootstrap'
-import ScrollTopArrow from './ScrollTopArrow'
+import React from "react";
+import {
+  Header,
+  Home,
+  Footer,
+  About,
+  Education,
+  Experience,
+  Services,
+  Review,
+  Contact,
+} from "../sections";
+import { Row, Col, Container } from "react-bootstrap";
+import ScrollTopArrow from "./ScrollTopArrow";
 
-import '../components/Icons'
+import "../components/Icons";
 
 function App() {
-  return(
+  return (
     <>
       <Header />
       <main>
@@ -24,13 +34,12 @@ function App() {
         </Container>
         <Services />
         <Review />
-        <Tools />
         <Contact />
       </main>
       <Footer />
       <ScrollTopArrow />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

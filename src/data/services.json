@@ -2,24 +2,24 @@
     "customContent": "Wants to hire young, ambitious recent graduate who want to learn more about being a front-end engineer? <a href=\"#contact\">Click here<\/a> to contact me! <span role=\"img\" aria-label=\"wave\">👋<\/span>",
     "services": [
         {
-            "title": "UI/UX design",
-            "photo": "\/images\/service-1.svg",
-            "backgroundColor": "rgb(108, 108, 229)",
-            "content": "Create better interfaces and experiences for the user, making the web, application's and technology easier for the user.",
+            "title": "JavaScript",
+            "photo": "/jsLogo.PNG",
+            "backgroundColor": "#342054",
+            "content": "JavaScript is a high-level, dynamic, and interpreted programming language that is widely used for web development. It enables developers to create interactive and dynamic websites by adding behavior to HTML pages.",
             "delay": 0
         },
         {
-            "title": "Web Development",
-            "photo": "\/images\/service-2.svg",
-            "backgroundColor": "rgb(249, 215, 76)",
-            "content": "Tailor website for search engine optimisation, content organisation, user-friendly site, and effective calls to action.",
+            "title": "TypeScript",
+            "photo": "/tsLogo.PNG",
+            "backgroundColor": "#342054",
+            "content": "TypeScript is a statically typed, object-oriented programming language that builds on JavaScript. It adds optional static typing and class-based object-oriented programming to JavaScript, making it easier to develop large-scale applications.",
             "delay": 1000
         },
         {
-            "title": "Photography",
-            "photo": "\/images\/service-3.svg",
-            "backgroundColor": "rgb(249, 123, 139)",
-            "content": "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+            "title": "React",
+            "photo": "/reactGIF.gif",
+            "backgroundColor": "#342054",
+            "content": "React is an open-source JavaScript library for building user interfaces. It allows developers to build reusable UI components and manage the state of the application, making it an efficient and scalable tool for front-end web development.",
             "delay": 2000
         }
     ]

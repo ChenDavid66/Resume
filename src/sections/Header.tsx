@@ -1,21 +1,21 @@
-import React from 'react'
-import { Scroller } from '../components'
-import { Container, Navbar, Nav } from 'react-bootstrap'
-import styled from 'styled-components'
-import details from '../data/details.json'
+import React from "react";
+import { Scroller } from "../components";
+import { Container, Navbar, Nav } from "react-bootstrap";
+import styled from "styled-components";
+import details from "../data/details.json";
 
 const Logo = styled.span({
-  color: '#fff',
-  fontSize: '36px',
-  fontFamily: 'Rubik, sans-serif',
+  color: "#fff",
+  fontSize: "36px",
+  fontFamily: "Rubik, sans-serif",
   fontWeight: 700,
-  lineHeight: '36px'
-})
+  lineHeight: "36px",
+});
 
 const Dot = styled.span({
-  color: '#ff4c60',
-  display: 'inline'
-})
+  color: "#ff4c60",
+  display: "inline",
+});
 
 export class Header extends React.Component {
   render() {
@@ -34,27 +34,42 @@ export class Header extends React.Component {
             <Navbar.Collapse id="navbarNavDropdown">
               <Nav className="ms-auto" as="ul">
                 <Nav.Item as="li">
-                  <Scroller href="#home" className="nav-link">Home</Scroller>
+                  <Scroller href="#home" className="nav-link">
+                    Home
+                  </Scroller>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Scroller href="#about" className="nav-link">About</Scroller>
+                  <Scroller href="#about" className="nav-link">
+                    About
+                  </Scroller>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Scroller href="#education" className="nav-link">Education &amp; Experience</Scroller>
+                  <Scroller href="#education" className="nav-link">
+                    Education &amp; Experience
+                  </Scroller>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Scroller href="#recommendations" className="nav-link">Recommendations</Scroller>
+                  <Scroller href="#recommendations" className="nav-link">
+                    Skill Set
+                  </Scroller>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Scroller href="#contact" className="nav-link">Contact</Scroller>
+                  <Scroller href="#recommendations" className="nav-link">
+                    Recommendations
+                  </Scroller>
+                </Nav.Item>
+                <Nav.Item as="li">
+                  <Scroller href="#contact" className="nav-link">
+                    Contact
+                  </Scroller>
                 </Nav.Item>
               </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
       </header>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;

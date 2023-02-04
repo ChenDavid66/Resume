@@ -3,12 +3,14 @@
     {
       "period": "September 2021 – September 2022",
       "school": " Cranfield University",
+      "link":"https://www.cranfield.ac.uk/courses/taught/software-engineering-for-technical-computing",
       "degree": "Master’s degree in Software Engineering for Technical Computing Option",
       "description": ""
     },
     {
       "period": "September 2019 – September 2022",
       "school": "ESTIA: Institute of Advanced Industrial Technologies",
+      "link":"https://www.estia.fr/",
       "degree": "Master’s degree in General Engineering and Innovation",
       "description": ""
     }
@@ -17,18 +19,21 @@
     {      
       "period": "May 2022 - October 2022",
       "company": "DASSAULT SYSTEMES",
+      "link":"https://www.3ds.com/fr/",
       "title": "Front-end developer - Data Science Components",
       "description": "<p>Brisbane, Queensland, Australia<\/p>"
     },
     {      
       "period": "May 2021 - August 2021",
       "company": "Manayaki",
+      "link":"https://www.manayaki.fr/",
       "title": "Intern Front-end developer",
       "description": "<p>Loganholme, Queensland, Australia<\/p>"
     },
     {      
       "period": "January 2020 - March 2020",
       "company": "Limed ",
+      "link":"https://www.instagram.com/limed.fr/?hl=fr",
       "title": "Intern Full Stack developer",
       "description": "<p>Brisbane, Queensland, Australia<\/p>"
     }
