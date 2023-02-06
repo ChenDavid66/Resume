@@ -21,7 +21,6 @@ export class Education extends React.Component {
                   icon={["fas", "graduation-cap"]}
                 >
                   <p>{e.degree}</p>
-                  <div dangerouslySetInnerHTML={{ __html: e.description }} />
                 </Timeline>
               ))}
 

@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ParticlesContainer } from "../components/ParticlesContainer";
 import TextLoop from "react-text-loop";
 import styled from "styled-components";
 import { Scroller } from "../components";
@@ -17,13 +16,8 @@ export class Home extends React.Component {
   render() {
     return (
       <section id="home" className="home d-flex align-items-center">
-        <div>
-          <ParticlesContainer />
-        </div>
         <Container>
           <div className="intro">
-            <img src={details.avatar} alt="kien dang" className="mb-4" />
-
             <h1 className="mb-2 mt-0">
               {details.firstName}
               <Dot>{details.middleName}</Dot>

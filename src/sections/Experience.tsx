@@ -22,7 +22,13 @@ export class Experience extends React.Component {
                   left="-7px"
                 >
                   <p>{c.company}</p>
-                  <div dangerouslySetInnerHTML={{ __html: c.description }} />
+                  <div>
+                    <ul>
+                      {c.descriptions.map((description, index) => (
+                        <li key={index}>{description.description}</li>
+                      ))}
+                    </ul>
+                  </div>
                 </Timeline>
               ))}
 
