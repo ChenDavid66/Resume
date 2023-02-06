@@ -6,7 +6,7 @@ import {
   About,
   Education,
   Experience,
-  Services,
+  Skillsset,
   Review,
   Contact,
 } from "../sections";
@@ -32,7 +32,7 @@ function App() {
             </Col>
           </Row>
         </Container>
-        <Services />
+        <Skillsset />
         <Review />
         <Contact />
       </main>

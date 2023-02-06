@@ -1,17 +1,17 @@
 import React from "react";
 import { Section, ServiceBox } from "../components";
 import { Row, Col } from "react-bootstrap";
-import ServiceConfig from "../data/services.json";
+import SkillsConfig from "../data/skills.json";
 import Pulse from "react-reveal/Pulse";
 
-const services = ServiceConfig.services;
+const skillsset = SkillsConfig.skillsset;
 
 export class ProgSkillsAndTech extends React.Component {
   render() {
     return (
-      <Section id="services" title="Programming Skills and Technologies">
+      <Section id="skillsset" title="Main Programming Skills and Technologies">
         <Row>
-          {services.map((s) => (
+          {skillsset.map((s) => (
             <Col md={4} key={s.title}>
               <Pulse delay={s.delay}>
                 <ServiceBox
@@ -34,7 +34,7 @@ export class ProgSkillsAndTech extends React.Component {
               <div
                 className="mb-0"
                 dangerouslySetInnerHTML={{
-                  __html: ServiceConfig.customContent,
+                  __html: SkillsConfig.customContent,
                 }}
               />
             </div>
